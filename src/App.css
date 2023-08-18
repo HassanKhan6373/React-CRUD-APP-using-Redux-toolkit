@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-left {
+  position: fixed;
+  background-color: #015249;
+  width: 20%;
+  height: 100vh;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+.heading {
+  padding-top: 40px;
+}
+
+.button-section {
+  margin-top: 100px;
+}
+
+.button-37 {
+  background-color: #043933;
+  border: 1px solid #043933;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  color: #fff;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+.body-right {
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
+.nav-header {
+  padding: 20px 20px;
+}
+
+.content-body {
+  height: 80vh;
+  background-color: #f3f3f3;
+}
+
+.inner-content {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  height: 100%;
+}
+
+.button-38 {
+  background-color: #419f7c;
+  border: 1px solid #419f7c;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  /* transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-38 {
+    padding: 10px 30px;
+  }
+}
+
+.add-buttons {
+  margin: 20px 0 0 0;
+}
+
+.table-row-data {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #c5e3d5;
+  padding: 10px 0;
+}
+
+.syle-h5 {
+  color: #043933;
+}
+
+.row-heading {
+  padding: 0px 0 0 180px;
+  display: flex;
+  gap: 70px;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+.table-content-data {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.image-section img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+
+.input_field{
+  border-radius: 10px;
+  width: 95%;
+  padding: 10px 10px;
+  border: 1px solid #80808070;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 2px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 5px 30px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.reddish {
+  background-color: #ef9999;
+  color: red;
+}
+.green {
+  background-color: #b0e1b7;
+  color: #043933;
+}
+
+.button-row {
+  padding-right: 30px;
+  display: flex;
+  gap: 18px;
+}
+
+
+@media (max-width: 767px) {
+  .body-left{
+    position: static;
+    width: 40%;
+  }
+
+  .body-row{
+    display: flex;
+  }
+
+  .body-right{
+    width: 100%;
+    position: static;
+    overflow: scroll;
+  }
+
+  .inner-content{
+    width: 100%;
+  }
+
+  .inner-content{
+    padding: 0;
+  }
+
+  .table-content-data .row{
+    gap: 40px;
+  }
+
+  .table-content-data{
+    overflow: scroll;
+    width: 90%;
+  }
+
+  .row-heading {
+    padding: 0px 0 0 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+}
